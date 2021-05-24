@@ -1,10 +1,7 @@
 public class ThirdApp {
     public static void main(String[] args) {
-        System.out.println("Hello Java");
-        System.out.println("Second line");
-        printSomeText("GOIT");
-        System.out.println(sum(1 , 3));
-
+        User currentUser = new User();
+        currentUser.printUserName();
     }
 
     public static void printSomeText(String text) {
