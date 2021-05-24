@@ -1,5 +1,5 @@
 public class User {
     public void printUserName() {
-        System.out.println("My name is Kolya");
+        System.out.println("My name is Vasya");
     }
 }
